@@ -1,0 +1,6 @@
+DirectoryIndex index.php
+Options -Indexes
+<FilesMatch "\.(db|log)$">
+Order Deny,Allow
+Deny from all
+</FilesMatch>

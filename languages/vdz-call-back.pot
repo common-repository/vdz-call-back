@@ -1,0 +1,331 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VDZ Call Back Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-07 10:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: vdz-call-back"
+
+#: admin/templates/plugin_settings_tab.php:45
+msgid "Action button class:"
+msgstr ""
+
+#: includes/vdz_cb_shortcode.php:18 includes/vdz_cb_shortcode.php:33 
+#: includes/vdz_cb_pro.php:237 includes/vdz_cb_send.php:36 
+#: admin/templates/plugin_settings_tab.php:54 
+#: admin/templates/plugin_settings_tab.php:57 
+#: admin/templates/popup_settings_tab.php:23
+msgid "Call back"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:92
+msgid "Custom form fields"
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:69
+msgid "Custom mail Text"
+msgstr ""
+
+#: admin/templates/info_tab.php:20 admin/templates/data_tab.php:10 
+#: admin/templates/layout_settings_page.php:39
+msgid "Data"
+msgstr ""
+
+#: admin/a_construct.php:291
+msgid "Data REMOVED"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:62
+msgid "Deactivate Phone Mask: "
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:73
+msgid ""
+"Default empty. Use only TEXT here. Shortcode for send information: [name], "
+"[phone], [page]"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:107
+msgid "Default empty. Use TEXT or HTML here."
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:96
+msgid ""
+"Default empty. Use TEXT or HTML here. Allow Input / Textarea / Select / "
+"Option tags."
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:66
+#, php-format
+msgid "Default mask (XXX) XXX-XX-XX. For customize see more  %s"
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:25
+msgid "Default send on WordPress admin email: "
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:57
+msgid "Default subject: "
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:87
+msgid "Default use class \"button btn btn-default\""
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:49
+msgid "Default use class \"vdz_cb_btn\""
+msgstr ""
+
+#: admin/templates/test_tab.php:26
+msgid "Default use code:"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:26
+msgid "Default use text \"Call back\""
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:118
+msgid "Default use text \"Error\". Use TEXT or HTML here"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:43
+msgid "Default use text \"Name\""
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:52
+msgid "Default use text \"Phone\""
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:78
+msgid "Default use text \"Send\""
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:128
+msgid "Default use text \"Thank you!\". Use TEXT or HTML here"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:39
+msgid "Disable field Name: "
+msgstr ""
+
+#: admin/templates/data_tab.php:17
+msgid "Download all"
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:37
+msgid "Enter a comma-delimited email address with no spaces"
+msgstr ""
+
+#: includes/vdz_cb_shortcode.php:28 admin/templates/popup_settings_tab.php:115
+msgid "Error"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:114
+msgid "Error text after send"
+msgstr ""
+
+#: admin/templates/info_tab.php:22
+#, php-format
+msgid "Found %d Call back records"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://online-services.org.ua"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://online-services.org.ua#vdz_call_back"
+msgstr ""
+
+#: admin/templates/info_tab.php:10 admin/templates/layout_settings_page.php:40
+msgid "Info"
+msgstr ""
+
+#: admin/templates/data_tab.php:21
+msgid "Last 20 CALL BACK requests:"
+msgstr ""
+
+#: admin/templates/info_tab.php:46
+msgid "Log:"
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:53
+msgid "Mail subject"
+msgstr ""
+
+#: includes/vdz_cb_shortcode.php:21 admin/templates/popup_settings_tab.php:32
+msgid "Name"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:31
+msgid "Name placeholder:"
+msgstr ""
+
+#: includes/vdz_cb_shortcode.php:24 admin/templates/popup_settings_tab.php:49
+msgid "Phone"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:57
+msgid "Phone Mask: "
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:48
+msgid "Phone placeholder:"
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:11 
+#: admin/templates/layout_settings_page.php:37
+msgid "Plugin Settings"
+msgstr ""
+
+#: admin/a_construct.php:162
+msgid "Plugin Settings UPDATED"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:83
+msgid "Popup button class:"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:74
+msgid "Popup button text:"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:11 
+#: admin/templates/layout_settings_page.php:36
+msgid "Popup Settings"
+msgstr ""
+
+#: admin/a_construct.php:186
+msgid "Popup Settings UPDATED"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:103
+msgid "Popup Text"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:22
+msgid "Popup Title:"
+msgstr ""
+
+#: admin/templates/data_tab.php:18
+msgid "Remove all"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:35
+msgid "Required field Name: "
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:78
+msgid "Save Plugin options"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:133
+msgid "Save Popup options"
+msgstr ""
+
+#: admin/templates/test_tab.php:31
+msgid "Save TEST options"
+msgstr ""
+
+#: includes/vdz_cb_shortcode.php:27 admin/templates/popup_settings_tab.php:75
+msgid "Send"
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:21
+msgid "Send Email to:"
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:33
+msgid "Send to other Emails:"
+msgstr ""
+
+#: admin/templates/test_tab.php:37
+msgid "Shortcode in action:"
+msgstr ""
+
+#: admin/templates/test_tab.php:22
+msgid "Shortcode:"
+msgstr ""
+
+#. Description of the plugin
+msgid "Simple CALL BACK from shortcode with customization"
+msgstr ""
+
+#: admin/templates/info_tab.php:36
+msgid "Site & Author:"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:124
+msgid "Success text after send"
+msgstr ""
+
+#: admin/templates/test_tab.php:10 admin/templates/layout_settings_page.php:38
+msgid "Test"
+msgstr ""
+
+#: admin/a_construct.php:195
+msgid "TEST Settings UPDATED"
+msgstr ""
+
+#: includes/vdz_cb_shortcode.php:29 admin/templates/popup_settings_tab.php:125
+msgid "Thank you!"
+msgstr ""
+
+#: admin/templates/info_tab.php:14
+msgid "Usage shortcode"
+msgstr ""
+
+#: admin/templates/plugin_settings_tab.php:62
+msgid "Use custom mail"
+msgstr ""
+
+#. Author of the plugin
+msgid "VadimZ"
+msgstr ""
+
+#: admin/a_construct.php:112
+msgid "VDZ Call Back"
+msgstr ""
+
+#. Name of the plugin
+msgid "VDZ Call Back Plugin"
+msgstr ""
+
+#: admin/templates/info_tab.php:26
+msgid "VDZ Call back Plugin"
+msgstr ""
+
+#: admin/a_construct.php:112 admin/templates/layout_settings_page.php:15
+msgid "VDZ Call Back Settings Page"
+msgstr ""
+
+#: admin/templates/info_tab.php:32
+msgid "Version:"
+msgstr ""
+
+#: admin/templates/test_tab.php:39
+msgid ""
+"Warning on this page used WordPress and foundation framework styles. Your "
+"fields and button styles may be different on front"
+msgstr ""
+
+#: admin/templates/test_tab.php:23
+msgid "Write your shortcode here"
+msgstr ""
+
+#: admin/templates/popup_settings_tab.php:98 
+#: admin/templates/popup_settings_tab.php:109
+msgid ""
+"You can use a shortcode. But before outputting, all the code will be cleaned "
+"up by the wp_kses function for safe output."
+msgstr ""

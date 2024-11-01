@@ -1,0 +1,80 @@
+/*
+ *
+ *  * @ author ( Zikiy Vadim )
+ *  * @ site http://online-services.org.ua
+ *  * @ name
+ *  * @ copyright Copyright (C) 2016 All rights reserved.
+ *
+ */
+
+/*
+    Created on : 23.09.2016, 9:38:07
+    Author     : Vadim
+*/
+
+#data_btn_in_admin a.button{
+    border-color: transparent;
+}
+/*Fix foundation menu*/
+/*#adminmenu #menu-settings ul{}*/
+#adminmenu ul{
+    margin-left: 0;
+}
+
+#vdz_cb{
+    position: relative;
+    /*width: 80%;*/
+    max-width: 420px;
+    min-width: 295px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#vdz_cb input[type="text"]{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#vdz_cb input[type="submit"]{
+    /*margin-top: 10px;*/
+}
+#vdz_cb h3{
+    text-align: center;
+}
+#vdz_cb #vdz_cb_form{
+    width: 70%;
+    margin: 0 auto;
+}
+#vdz_cb #vdz_cb_form input[type="submit"]{
+    /*margin-top: 20px;*/
+}
+
+#vdz_cb_unsver div{
+    margin-top: 30px;
+}
+#vdz_cb_unsver .warning{
+    color: red;
+}
+#vdz_cb_unsver .success{
+    color: green;
+}
+
+.jBox-overlay{
+    z-index: 100000 !important;
+
+}
+.jBox-wrapper{
+    z-index: 100100 !important;
+}
+.jBox-Modal .jBox-container{
+    border-radius: 0px !important;
+}
+@media screen and (max-width: 768px){
+    #vdz_cb #vdz_cb_form{
+        width: 90%;
+    }
+    .jBox-Modal .jBox-content{
+        padding: 0;
+    }
+}

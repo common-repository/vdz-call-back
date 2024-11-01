@@ -1,0 +1,201 @@
+/*
+ * @ author ( Zikiy Vadim )
+ * @ site http://online-services.org.ua
+ * @ date 1/2/2018
+ * @ copyright Copyright (C) 2018 All rights reserved.
+ */
+.vdz_cb_widget {
+    display: block;
+    z-index: 9100;
+    position: absolute;
+    top:-2px;
+    left:-2px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    box-sizing: content-box !important;
+}
+.vdz_cb_widget:hover{
+    border: 2px solid rgba(32, 152, 209, 0.5);
+    background-color: #fff;
+}
+.vdz_cb_widget:hover span{
+    animation-name: manimate_i;
+    animation-delay: 0s;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.vdz_cb_widget span svg{
+    width: 40px;
+    height: 40px;
+    /*margin-top: 17px;*/
+    fill: white;
+}
+.vdz_cb_widget:hover svg{
+    fill: #0F9E5E;
+}
+.vdz_cb_widget span {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    z-index: 9200;
+    transition: all 0.3s linear !important;
+    animation-name: manimate_i;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes manimate_i {
+    0%, 100%, 50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    10%, 30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20%, 40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+}
+
+.vdz_cb_widget.vdz_cb_widget_btn:focus{
+    outline: none !important;
+}
+.vdz_cb_widget:hover i{
+    cursor: pointer;
+    color: rgba(32, 152, 209, 0.9);
+    animation: manimate_i 1s infinite ease-in-out
+}
+#vdz_cb_widget{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 80px;
+    height: 80px;
+    line-height: 78px;
+    border-radius: 50%;
+    border: 2px solid rgba(32, 152, 209, 0.3);
+    background-color: rgba(32, 152, 209, 0.5);
+    text-align: center;
+    transition:  all 0.8s linear;
+    /*animation-name: manimate_i;*/
+    /*animation-timing-function: linear;*/
+    /*animation-iteration-count: infinite;*/
+    opacity: 1;
+    z-index: 9999;
+}
+#vdz_cb_widget:after,
+#vdz_cb_widget:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    animation-duration: 4s;
+    content: '';
+    width: 100%;
+    height: 100%;
+    /*background-color: red;*/
+    border-radius: 50%;
+    z-index: -1;
+    box-sizing: content-box !important;
+}
+
+#vdz_cb_widget:after {
+    background-color: rgba(32, 152, 209, 0.3);
+    animation-name: manimate_after;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /*z-index: 4000;*/
+    opacity: 0;
+}
+
+#vdz_cb_widget:before {
+    top: -2px;
+    left: -2px;
+    border: 2px solid rgba(32, 152, 209, 0.5);
+    animation-name: manimate_before;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /*z-index: 3000;*/
+    opacity: 0;
+
+}
+
+#vdz_cb_widget:hover {
+    animation-play-state: paused;
+}
+
+@keyframes manimate_after {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    35% {
+        opacity: 1;
+        transform: scale(1.5);
+
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+@keyframes manimate_before {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    35% {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes manimate {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    30% {
+        border-width: 10px;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #vdz_cb_widget{
+        width: 50px;
+        height: 50px;
+        line-height: 48px;
+    }
+    .vdz_cb_widget span svg{
+        width: 30px;
+        height: 30px;
+    }
+}
